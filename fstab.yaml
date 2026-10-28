@@ -1,0 +1,13 @@
+mountpoints:
+  # Google Drive mountpoint for document-based authoring
+  # Share the folder with helix@adobe.com with Editor permissions
+  /gdrive: https://drive.google.com/drive/folders/1P5U70RiHUaIjs3v3kooRum2iLJ41Ymza?usp=sharing
+
+  # Universal Editor / AEM Author mountpoint (Crosswalk)
+  # Replace <aem-author-host> with your AEM Cloud Service Author instance URL
+  /ue:
+    /: content/
+    url: https://<aem-author-host>/bin/franklin.delivery/malikpkwd/test-eds/main
+    type: markup
+    suffix: .html
+

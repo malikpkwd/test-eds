@@ -1,0 +1,10 @@
+{
+  "project": "test-eds",
+  "host": "main--test-eds--malikpkwd.aem.live",
+  "previewHost": "main--test-eds--malikpkwd.aem.page",
+  "liveHost": "main--test-eds--malikpkwd.aem.live",
+  "owner": "malikpkwd",
+  "repo": "test-eds",
+  "ref": "main"
+}
+
